@@ -1,4 +1,4 @@
 # Work Sample
-# run "npm i" in root, server and app folders
-# to start the project, run "npm start" from root folder
-# requirement: .env file with Database credentials in "server" folder
+To Init the project: run "npm i" in root, server and app folders
+To start the project, run "npm start" from root folder
+Requirements: .env file with Database credentials in "server" folder
