@@ -1,0 +1,17 @@
+{
+  "name": "ws-product",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^4.1.2"
+  },
+  "scripts": {
+    "app": "npm start --prefix app",
+    "server": "npm start --prefix server",
+    "start": "concurrently \"npm run server\" \"npm run app\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

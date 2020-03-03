@@ -1,0 +1,14 @@
+.marker-cluster-custom {
+    display: block;
+    background: blue;
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    font-size: 2em;
+    text-align: center;    
+}
+
+.react-datepicker {
+    position: relative;
+    z-index: 90000;
+}

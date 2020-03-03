@@ -1,0 +1,40 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5555/",
+  "scripts": {
+    "start": "SET PORT=5556& react-scripts start",
+    "build": "SET GENERATE_SOURCEMAP=false& react-scripts build"
+  },
+  "dependencies": {
+    "leaflet": "^1.6.0",
+    "leaflet.markercluster": "^1.4.1",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-charts": "^2.0.0-beta.6",
+    "react-datepicker": "^2.13.0",
+    "react-dom": "^16.13.0",
+    "react-google-charts": "^3.0.15",
+    "react-leaflet": "^2.6.1",
+    "react-leaflet-heatmap-layer": "^2.0.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2",
+    "simpleheat": "^0.4.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
